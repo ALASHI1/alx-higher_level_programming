@@ -1,3 +1,12 @@
 #!/usr/bin/python3
+
 def islower(c):
-    return ord(c) >= ord('a') and ord(c) <= ord('z')
+    if c.islower() and c.isalpha():
+        return True
+    elif c == '':
+        raise ValueError('Empty string')
+    else:
+        return False
+    
+
+print(islower(""))
