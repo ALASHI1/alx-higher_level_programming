@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 import random
 
-number = 10
+number = random.randint(-10000, 10000)
 lastN = int(str(number)[-1])
 if number < 0:
     lastN = lastN * -1
@@ -19,3 +19,4 @@ elif number > 0:
     else:
         print(f"Last digit of {number} is {lastN} and is 0")
 else:
+    print(f"Last digit of {number} is {lastN} and is 0")
