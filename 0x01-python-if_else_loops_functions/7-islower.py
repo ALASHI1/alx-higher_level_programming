@@ -1,9 +1,7 @@
 #!/usr/bin/python3
 
-def is_lower(c):
+def islower(c):
     if c.islower():
         return True
     else:
         return False
-
-is_lower('a')
