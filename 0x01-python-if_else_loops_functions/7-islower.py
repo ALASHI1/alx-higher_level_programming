@@ -7,6 +7,3 @@ def islower(c):
         raise ValueError('Empty string')
     else:
         return False
-    
-
-print(islower(""))
