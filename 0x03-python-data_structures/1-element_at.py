@@ -2,9 +2,9 @@
 
 
 def element_at(my_list, idx):
-    if idx >= len(my_list):
+    if idx > len(my_list)-1:
         return "None"
     elif idx < 0:
         return "None"
     else:
-        return "{:d}".format(my_list[idx])
+        return my_list[idx]
