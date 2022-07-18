@@ -15,4 +15,4 @@ def safe_print_division(a, b):
         q = None
     finally:
         print("Inside result: {}".format(q))
-        return
+        return q
